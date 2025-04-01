@@ -4,6 +4,7 @@ import com.app_compta.models.User;
 import com.app_compta.services.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.http.ResponseEntity;
 
 import java.util.List;
 import java.util.Optional;
@@ -26,6 +27,11 @@ public class UserController {
         return userService.getUserById(id);
     }
 
+    @GetMapping("/{id}/nom") 
+    public ResponseEntity<String> getNomUser(@PathVariable Long id) {
+        return userService.getNomUser(id);
+    }
+    
     @PostMapping
     public User createUser(@RequestBody User user) {
         return userService.createUser(user);
