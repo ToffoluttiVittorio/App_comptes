@@ -1,4 +1,4 @@
-package com.app_compta.app_compta;
+package com.app_compta;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

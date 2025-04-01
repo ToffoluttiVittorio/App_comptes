@@ -1,4 +1,4 @@
-package com.app_compta.app_compta.config;
+package com.app_compta.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
