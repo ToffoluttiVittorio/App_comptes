@@ -1,5 +1,0 @@
-Spring initailzr pour créer le back
-Télécharger maven https://maven.apache.org/download.cgi
-je dois télécharger le binary zip et je l'ai décomprésé dans C/Program Files/Apache/Maven
-j'ajoute : C:\Program Files\Apache\Maven\apache-maven-3.9.9\bin au path
-et nouvelle variable MAVEN_HOME : C:\Program Files\Apache\Maven\apache-maven-3.9.9
